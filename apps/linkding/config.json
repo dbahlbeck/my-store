@@ -1,17 +1,17 @@
 {
-  "name": "Whoami",
-  "id": "whoami",
+  "name": "Linkding",
+  "id": "linkding",
   "available": true,
-  "short_desc": "Tiny Go server that prints os information and HTTP request to output.",
-  "author": "traefik",
+  "short_desc": "The Linkding bookmark manager",
+  "author": "",
   "port": 8382,
   "categories": [
     "utilities"
   ],
-  "description": "Tiny Go webserver that prints OS information and HTTP request to output.",
+  "description": "The Linkding bookmark manager",
   "tipi_version": 2,
-  "version": "v1.11.0",
-  "source": "https://github.com/traefik/whoami",
+  "version": "v1.41.0",
+  "source": "https://github.com/sissbrueker/linkding",
   "exposable": true,
   "supported_architectures": [
     "arm64",
