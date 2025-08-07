@@ -8,7 +8,7 @@
       "volumes": [
         {
           "hostPath": "${APP_DATA_DIR}/data/data",
-          "containerPath": "/etc/linking/data"
+          "containerPath": "/etc/linkding/data"
         }
       ]
     }
