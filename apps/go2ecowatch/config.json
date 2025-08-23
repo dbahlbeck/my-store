@@ -9,7 +9,7 @@
     "utilities"
   ],
   "description": "Adapts simple ints on a topic to LED rings on EcoWatch clocks",
-  "tipi_version": 1,
+  "tipi_version": 2,
   "version": "v0.0.1",
   "source": "https://github.com/dbahlbeck/go2ecowatch",
   "exposable": false,
@@ -18,6 +18,6 @@
   ],
   "created_at": 1745082405284,
   "updated_at": 1745674974072,
-  "dynamic_config": false,
+  "dynamic_config": true,
   "form_fields": []
 }
