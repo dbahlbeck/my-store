@@ -1,0 +1,16 @@
+{
+  "services": [
+    {
+      "name": "go2ecowatch",
+      "image": "wursley/go2ecowatch",
+      "internal_ports": 80,
+      "isMain": true,
+      "environment": {
+        "G2E_HOST": "${G2E_HOST}",
+        "G2E_PORT": "${G2E_PORT}",
+        "G2E_USER": "${G2E_USER}",
+        "G2E_PASSWORD": "${G2E_PASSWORD}"
+      }
+    }
+  ]
+}

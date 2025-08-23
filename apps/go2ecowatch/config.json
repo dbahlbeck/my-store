@@ -1,0 +1,23 @@
+{
+  "name": "go2ecowatch",
+  "id": "go2ecowatch",
+  "available": true,
+  "short_desc": "MQTT Adapter for EcoWatch",
+  "author": "David Ahlbeck",
+  "port": 8976,
+  "categories": [
+    "utilities"
+  ],
+  "description": "Adapts simple ints on a topic to LED rings on EcoWatch clocks",
+  "tipi_version": 1,
+  "version": "v0.0.1",
+  "source": "https://github.com/dbahlbeck/go2ecowatch",
+  "exposable": false,
+  "supported_architectures": [
+    "amd64"
+  ],
+  "created_at": 1745082405284,
+  "updated_at": 1745674974072,
+  "dynamic_config": false,
+  "form_fields": []
+}
