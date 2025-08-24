@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "go2ecowatch",
-      "image": "wursley/go2ecowatch",
+      "image": "wursley/go2ecowatch:20250820.1",
       "internal_ports": 80,
       "isMain": true,
       "environment": {
