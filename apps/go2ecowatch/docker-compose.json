@@ -2,13 +2,14 @@
   "services": [
     {
       "name": "go2ecowatch",
-      "image": "wursley/go2ecowatch:20250820.1",
+      "image": "wursley/go2ecowatch:20250825.1",
       "isMain": true,
       "environment": {
         "G2E_HOST": "${G2E_HOST}",
         "G2E_PORT": "${G2E_PORT}",
         "G2E_USER": "${G2E_USER}",
-        "G2E_PASSWORD": "${G2E_PASSWORD}"
+        "G2E_PASSWORD": "${G2E_PASSWORD}",
+        "G2E_ECOWATCH_ID": "${G2E_ECOWATCH_ID}"
       }
     }
   ]
