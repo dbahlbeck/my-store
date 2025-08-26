@@ -9,7 +9,7 @@
     "utilities"
   ],
   "description": "Adapts simple ints on a topic to LED rings on EcoWatch clocks",
-  "tipi_version": 3,
+  "tipi_version": 4,
   "version": "v0.0.4",
   "source": "https://github.com/dbahlbeck/go2ecowatch",
   "exposable": false,
@@ -19,5 +19,37 @@
   "created_at": 1745082405284,
   "updated_at": 1756148223852,
   "dynamic_config": true,
-  "form_fields": []
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "MQTT username",
+      "required": true,
+      "env_variable": "G2E_USER"
+    },
+    {
+      "type": "password",
+      "label": "MQTT password",
+      "required": true,
+      "env_variable": "G2E_PASSWORD"
+    },
+    {
+      "type": "password",
+      "label": "MQTT host",
+      "required": true,
+      "env_variable": "G2E_HOST"
+    },
+    {
+      "type": "number",
+      "label": "MQTT port",
+      "required": true,
+      "default": 1883,
+      "env_variable": "G2E_PORT"
+    },
+    {
+      "type": "text",
+      "label": "EcoWatch ID",
+      "required": true,
+      "env_variable": "G2E_ECOWATCH_ID"
+    }
+  ]
 }
