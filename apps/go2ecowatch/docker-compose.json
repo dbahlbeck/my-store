@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "go2ecowatch",
-      "image": "wursley/go2ecowatch:20250915.1",
+      "image": "wursley/go2ecowatch:20250915.2",
       "isMain": true,
       "environment": {
         "G2E_HOST": "${G2E_HOST}",
